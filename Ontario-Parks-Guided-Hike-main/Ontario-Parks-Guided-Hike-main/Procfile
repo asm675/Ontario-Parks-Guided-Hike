@@ -1,2 +1,0 @@
-release: python back_end/manage.py migrate
-web: gunicorn --pythonpath back_end PB.wsgi
